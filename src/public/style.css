@@ -1,0 +1,120 @@
+.main {
+
+    text-align: center;
+    margin-top: 20px;;
+}
+
+.circle{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    background: #ced1d7 !important;
+    line-height:100px;
+    text-align:center;
+    background:#000;
+    margin: 0 auto;
+}
+
+.fa-map-marker-alt {
+    margin-top: 20px;;
+    color: #668aa3;
+   
+}
+
+.add-location button {
+    border-radius: 53px;
+}
+
+.add-box {
+    background: white;
+    padding: 35px;;
+    margin: 0 auto;
+    width: 70%;
+   
+}
+
+.add-box .row {
+    height:75px;
+}
+label.active{
+    color:#59698d !important;
+    font-weight: 600;
+
+}
+
+.mdb-dataTable-head .sorting , .mdb-dataTable-head .sorting_desc ,.mdb-dataTable-head .sorting_asc {
+    left: 0px !important;
+}
+
+.mdb-datatable { 
+    background: white;
+}
+.title{
+    color:#59698d !important;
+    font-weight: 600;
+}
+
+ul.timezone-picker-list {
+    z-index: 99999 !important;
+}
+.timezone-label{
+    display: block;
+}
+.timezone {
+    border : none;
+}
+
+.custom-select{
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+
+.flag-dropdown{
+  border: none !important;
+  background: white !important;
+}
+.react-tel-input ,.timezone-picker-textfield .form-control{
+    border: none;;
+    border-bottom: 1px solid  #ced4da;;
+}
+
+.react-tel-input .form-control{
+    border: none !important;
+}
+
+.time-box {
+    display: flex;
+    flex-direction: row;;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    justify-content: space-between;
+}
+
+.time-formate {
+    display: flex;
+    flex-direction: row;;
+    flex-wrap: nowrap;
+}
+.AM{
+    width: 50px;
+    height: 30px;
+    background: grey;
+    text-align: center;
+    padding-top: 3px;
+}
+.PM{
+    width: 50px;
+    height: 30px;
+    background: blue;
+    text-align: center;
+   padding-top: 3px;
+}
+.formate-active {
+    background: #59698d !important;
+    color: white;
+}
+.formate-inactive {
+    background: #f1ecec !important;
+    color: black;
+}
